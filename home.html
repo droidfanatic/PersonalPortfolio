@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daycee Duncan - Portfolio</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            background-image: url('background.png');
+            background-size: cover;
+            background-position: center;
+			background-attachment: fixed;
+            color: #333;
+        }
+        header {
+            background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 1rem;
+            background-color: rgba(68, 68, 68, 0.8); /* Semi-transparent background */
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        .container {
+            flex: 1; /* This will ensure the container takes up the remaining space */
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+            border-radius: 8px;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+		h1 {
+			color: #fff;
+		}
+        h2 {
+            color: #333;
+        }
+        .education, .skills, .project, .experience {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+        }
+		.skills img {
+            max-width: 75%;
+            height: auto;
+			margin: auto;
+			display: block;
+        }
+        .project img {
+            max-width: 35%;
+            height: auto;
+        }
+        footer {
+            background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daycee Duncan</h1>
+        <p>Software Engineer</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+		<a href="#skills">Skills</a>
+		<a href="#education">Education</a>
+		<a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I’m Daycee Duncan! I’m a software engineer with experience in software development, video game development, automation, and more. I have a passion for taking on challenging projects and finding innovative solutions for issues that don’t have a direct way to solve. I’m very devoted to delivering strong, functional code with no flaws. I’m fast at learning new systems and processes for working as a team.</p>
+            <p>Feel free to explore my portfolio to see some of the work I've done and learn more about my background.</p>
+        </section>
+		
+		<section id="skills">
+            <h2>Skills</h2>
+			<div class="skills">
+				<p>7 years of experience using C++ and Python</p>
+				<p>5 years of experience using Git version control</p>
+				<p>3 years of experience using Java</p>
+                <p>2 years of XCUI automation</p>
+				<p>Practiced with C, C#, and JavaScript</p>
+				<p>Practiced graphics rendering with SFML, DirectX12, Unity, and Unreal Engine</p>
+				<img src="logos.png" alt="logos Screenshot">
+            </div>
+		</section>
+		
+		<section id="education">
+            <h2>Education</h2>
+			<div class="education">
+				<h3>Midwestern State University</h3>
+				<p><strong>Dates:</strong> August 2016 - May 2021</p>
+				<p>BA in Computer Science</p>
+            </div>
+		</section>
+		
+		<section id="experience">
+            <h2>Work Experience</h2>
+            <div class="experience">
+                <h3>Quality Assurance at Teksystems</h3>
+                <p><strong>Dates:</strong> September 2022 - Present</p>
+                <p>I was contracted to Charles Schwab to work as a QA and XCUI automation specialist. I worked on several important features: Remote Deposit Capture, External Account Verification, Bill Pay, Zelle, and eAuth. I developed, maintained, and/or refactored all XCUI automation scripts for each of these features while keeping up with all scrum work each sprint.</p>
+            </div>
+            <div class="experience">
+                <h3>Software Developer Associate at Avior</h3>
+                <p><strong>Dates:</strong> February 2022 - September 2022</p>
+                <p>I was responsible for filing weekly and monthly MSA reports for all companies contracted with our services. I developed python scripts to automate taxes for each U.S. state to calculate taxes for tobacco, motor fuel, alcohol, and retail sales. I conducted several meetings with new clients to help them connect to our api so they could automatically calculate their taxes.</p>
+            </div>
+            <div class="experience">
+                <h3>Substitute Teacher at Keller ISD</h3>
+                <p><strong>Dates:</strong> August 2020 - May 2021</p>
+                <p>I was tasked with maintaining safety and order in and out of the classroom. I also educated the students using the lesson plans that were provided to me from the teacher. I also may have tried to influence them to take on learning computer science and joining the field.</p>
+            </div>
+            <div class="experience">
+                <h3>Lifeguard/Manager at Quanah City Pool</h3>
+                <p><strong>Dates:</strong> 2014 - 2017 & 2020</p>
+                <p>I had many hats in this job. I completed payroll for all faculty, created weekly work schedules, ensured the safety of all faculty and guests, handled any and all legal issues that arose, and much more.</p>
+            </div>
+            <div class="experience">
+                <h3>Intern at 3 Rivers Foundation</h3>
+                <p><strong>Dates:</strong> May 2018 - October 2018</p>
+                <p>I hosted many different STEM camps throughout the summer. Camps included chess, arts, robotics, music, and much more. As a team, we traveled to other cities with our portable planetarium  and gave tours of the solar system.</p>
+            </div>
+        </section>
+		
+        <section id="projects">
+            <h2>Projects</h2>
+			<div class="project">
+                <h3>Ayche Calendar</h3>
+                <video controls width="35%">
+					<source src="aychedemo.mp4" type="video/mp4">
+				</video>
+                <p>This project was a final project for my senior software engineering class. We were given the freedom to create anything we wanted that was within reason. We decided on a minimalistic calendar that could sync to any other calendar that was installed. We used MongoDB for the back end and python for both the front end and the api.</p>
+            </div>
+            <div class="project">
+                <h3>Familiar Tower Defence</h3>
+                <img src="FTD1.png" alt="Familiar Tower Defence Screenshot">
+				<img src="FTD2.png" alt="Familiar Tower Defence Screenshot">
+                <p>This was another class project but for a graduate level game design class. We were given 8 weeks to design, develop, and demo a functional game. We used C++, DirectX12, and UNT’s game engine to develop a fun tower defense game. Every game starts with a procedurally generated map and path. The randomness of the map makes the player have to place towers strategically since not every space can have a tower placed on it. The random path forces the player to come up with a new strategy every game so there is not a “cookie cutter” solution.</p>
+            </div>
+            <div class="project">
+                <h3>Minmax Tic-Tac-Toe</h3>
+                <p>This was a graduate level AI class project that was developed in python. We were to use alpha-beta pruning to predict the best move to end the game as fast as possible. I have played against this AI and have asked many people to play against it and I have yet to have someone beat this AI. The best anyone has done is forced a tie.</p>
+            </div>
+			<div class="project">
+                <h3>Blades in the Dark: Character Tracker</h3>
+                <img src="bitd1.png" alt="blades in the dark Screenshot">
+                <p>This project is a work in progress. I’m a huge fan of Tabletop RPGs and Blades in the Dark is the most recent I’ve gotten into and really enjoy running as the game master. I ran my group’s first session with pencil and paper and soon realized that this game would be much better with an online tracker. My group and I searched around for online trackers and there are some okay ones out there but I thought I could do better. So I’m developing my own. I have created an API in python using flask and I’m working on setting up the web pages that will consume the API to make it possible for multiple groups and characters to be created and running games at the same time.</p>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch with me, please send an email to <a href="mailto:dayceeduncan@gmail.com">dayceeduncan@gmail.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Daycee Duncan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
